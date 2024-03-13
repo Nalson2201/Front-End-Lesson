@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { HouseholdTasksService } from '../../services/household-tasks.service';
-import { HouseholdTask } from '../../shared/model/household-task';
+import { HouseholdTasksService } from '../services/household-tasks.service';
+import { HouseholdTask } from '../shared/model/household-task';
 import { CommonModule } from '@angular/common';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';

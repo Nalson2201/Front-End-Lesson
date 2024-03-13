@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
-import { PeronsService } from '../../services/perons.service';
-import { Person } from '../../shared/model/person';
+import { PeronsService } from '../services/perons.service';
+import { Person } from '../shared/model/person';
 import { PersonCardComponent } from "../person-card/person-card.component";
 
 @Component({

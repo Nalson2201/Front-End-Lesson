@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import { Person } from '../../shared/model/person';
+import { Person } from '../shared/model/person';
 import { MatCardModule } from '@angular/material/card';
 
 @Component({
